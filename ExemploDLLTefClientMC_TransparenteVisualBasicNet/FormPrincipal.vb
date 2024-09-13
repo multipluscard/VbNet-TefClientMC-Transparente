@@ -207,7 +207,7 @@ Partial Public Class FormPrincipal
 
                         Dim auxCupom = strCupom & "-------------------------------" & vbLf & vbLf
 
-                        nsuRet = arrMsg(6).Replace("CAMPO0133=", "")
+                        nsuRet = arrMsg(5).Replace("CAMPO0133=", "")
                     End If
 
                     If arrMsg.Length = 2 And operacao = 200 Then
